@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+#container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+header {
+    margin-top: 0;
+    color: cornsilk;
+    background: rgb(37, 187, 247);
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 10px;
+}
+
+#field {
+    background: url('../assets/people.jpg') no-repeat;
+    background-size: cover;
+    width: 1000px;
+    height: 500px;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.664);
+    position: relative;
+    border: 1px solid;
+    float: right;
+    padding: 8px;
+    width: 250px;
+    border-radius: 20px;
+    margin-right: 60px;
+    top: 5%;
+}
+
+.box {
+    display: block;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+    width: 185px;
+    box-sizing: border-box;
+}
+
+.button {
+    font-weight: bold;
+    width: 185px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: blanchedalmond;
+    background: rgb(37, 187, 247);
+}
+
+#tittle {
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10pxs;
+    font-weight: bold;
+}
+
+#boxtt {
+    width: 75%;
+    margin: auto;
+}
+
+footer {
+    background: rgb(53, 49, 49);
+    width: 1000px;
+    height: 300px;
+}
+
+#footerContent {
+    margin-right: 10px;
+    position: relative;
+    float: left;
+}
+
+.A123 {
+    color: white;
+    position: relative;
+    display: block;
+    width: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
